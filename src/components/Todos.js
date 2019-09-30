@@ -106,7 +106,7 @@ class Todos extends React.Component {
 
 Todos.propTypes = {
     callApiFailed: PropTypes.bool.isRequired,
-    todosList: PropTypes.any.isRequired,
+    todosList: PropTypes.any,
     todosLoading: PropTypes.bool.isRequired
 };
 
