@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Usage
+
+You can mark todo as completed by clicking on it if the todo is in completed status you can remove it by clicking trash icon.
+If the amount of items in todo list is less than 10 you can add new todo otherwise button and input which dispatch add_todo action are disabled.
+When you run the app it should look like this
+![websiteimage](https://i.imgur.com/zhKQYF3.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -11,13 +18,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
-
-
-Usage:
-You can mark todo as completed by clicking on it if the todo is in completed status you can remove it by clicking trash icon.
-If the amount of items in todo list is less than 10 you can add new todo otherwise button and input which dispatch add_todo action are disabled.
-When you run the app it should look like this
-![websiteimage](https://i.imgur.com/zhKQYF3.png)
 
 ### `npm test`
 
