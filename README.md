@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 You can mark todo as completed or uncompleted by clicking on it. 
 If the todo is in completed status you can remove it by clicking trash icon.
 If the amount of items in todo list is less than 10 you can add new todo otherwise button and input which dispatch add_todo action are disabled.
+You can't add empty todo e.g. by pressing 7 times space key and add todo.
 When you run (how to run instruction is down below just scroll down) the app it should look like this
 ![websiteimage](https://i.imgur.com/zhKQYF3.png)
 
